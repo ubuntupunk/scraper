@@ -53,7 +53,7 @@ def get_summary(article_url):
         return "Summary not available"
 
 if __name__ == "__main__":
-    url = input("Enter the base URL of the Investors.com page to scrape: ")
+    url = input("Enter the base URL of the web page to scrape: ")
     format = input("Enter desired output format (json or csv): ")
     scraped_data = scrape_investors_com(url)
 
