@@ -1,8 +1,8 @@
 ## A basic python webscraper with beautiful soup
 
-Outputs a list of all the links on a given website
+* Outputs a list of all the links on a given website
 
-Options in json or csv
+* Options in json or csv
 
 ### Usage
 ```
