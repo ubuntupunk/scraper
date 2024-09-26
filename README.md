@@ -6,7 +6,7 @@ Options in json or csv
 
 ### Usage
 ```
-$ python webscraper.py 
+$ python scraper.py 
 ```
 ### Dependencies
 Beautiful Soup

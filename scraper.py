@@ -7,7 +7,7 @@ import csv
 
 colorama.init()
 
-def scrape_investors_com(url):
+def scraper(url):
     try:
         response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'}, timeout=10)
         response.raise_for_status()  # Raise an exception for bad status codes
@@ -55,7 +55,7 @@ def get_summary(article_url):
 if __name__ == "__main__":
     url = input("Enter the base URL of the web page to scrape: ")
     format = input("Enter desired output format (json or csv): ")
-    scraped_data = scrape_investors_com(url)
+    scraped_data = scraper(url)
 
     if scraped_data:
         print(colorama.Fore.GREEN + "Articles found:")
