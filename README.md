@@ -5,8 +5,9 @@ Outputs a list of all the links on a given website
 Options in json or csv
 
 ### Usage
-python webscraper.py 
-
+```
+$ python webscraper.py 
+```
 ### Dependencies
 Beautiful Soup
 bs4
