@@ -9,13 +9,13 @@ Options in json or csv
 $ python scraper.py 
 ```
 ### Dependencies
-Beautiful Soup
+```
 bs4
 requests
 colorama
 time
 json
 csv
-
+```
 ### Screenshot
 ![Screenshot](https://github.com/ubuntupunk/scraper/blob/main/screenshot.png)
